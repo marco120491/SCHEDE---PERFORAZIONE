@@ -1,0 +1,25 @@
+RAVELPHONE – SCHEDE DI PERFORAZIONE v2
+
+INSTALLAZIONE SU GITHUB PAGES
+1. Estrai questo ZIP nell’app File.
+2. Crea un repository separato, ad esempio schede-perforazione.
+3. Carica i file estratti nella radice del repository (non lo ZIP).
+4. Settings > Pages > Deploy from a branch > main > /(root) > Save.
+5. Apri il sito in Safari. Condividi > Aggiungi alla schermata Home.
+Non sostituire i file dell’app rapportini: questa è un’app separata.
+
+USO
+Nuova scheda: tratta, operatore, data e lunghezza asta (3 metri iniziali).
+Compila profondità in metri e pendenza in percentuale. Sono disponibili 84 aste. Usa i pulsanti + e − sotto la pendenza per scegliere il segno, poi digita il numero.
+Il metraggio è progressivo: numero asta × lunghezza asta. Non viene calcolata la profondità dalla pendenza.
+La bozza viene salvata durante la compilazione. Salva scheda aggiunge o aggiorna lo storico.
+Crea PDF > Apri / scarica PDF; su iPhone usa Condividi > Salva su File.
+Il PDF riporta tutte le 84 aste, in due colonne come la scheda Excel. Le note occupano pagine aggiuntive.
+Condividi PDF usa il menu del dispositivo quando disponibile; altrimenti apri il PDF e condividi da lì.
+Esporta copia conserva un file JSON modificabile tramite Importa una copia.
+
+DATI E OFFLINE
+Le schede sono salvate soltanto in questo browser/dispositivo, non vengono sincronizzate tra telefoni.
+Esporta le copie prima di cancellare dati Safari, cambiare telefono o cambiare indirizzo del sito.
+L’app può funzionare offline dopo la prima apertura completa online su un sito HTTPS.
+Nessuna libreria esterna richiesta per generare il PDF.
